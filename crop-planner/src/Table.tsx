@@ -16,7 +16,7 @@ type State = {
 export default class Table extends PureComponent<Props, State> {
   constructor(props: Props) {
     super(props)
-
+    
     this.state = {
       allCrops: [],
       fields: [],
@@ -27,6 +27,7 @@ export default class Table extends PureComponent<Props, State> {
     this.setState({
       fields: await fetchFields(),
       allCrops: await fetchCrops(),
+      
     })
 
   render = () =>
@@ -41,7 +42,7 @@ export default class Table extends PureComponent<Props, State> {
         <div className="table__cell table__cell--center">2024 crop</div>
         <div className="table__cell table__cell--right">Humus balance</div>
       </div>
-
+{console.log(this.state.fields)}
       {sortBy(this.state.fields, field => field.name).map(field => this.renderFieldRow(field))}
     </div>
 

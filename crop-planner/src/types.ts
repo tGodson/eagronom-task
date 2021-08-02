@@ -1,4 +1,4 @@
-export type Crop = { value: number, label: string }
+export type Crop = { value: number, label: string, humus_delta: number }
 
 export type SeasonalCrop = {
   year: number,

@@ -7,4 +7,3 @@ export const fetchFields = async (): Promise<Array<Field>> =>
 
 export const fetchCrops = async (): Promise<Array<Crop>> =>
   await fetch(`${SOIL_SERVICE_URL}/crops`).then(response => response.json())
-

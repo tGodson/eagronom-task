@@ -8,7 +8,7 @@ class CropsService
   WHITE_CLOVER = { value: 4, label: 'White Clover', humus_delta: 1 }.freeze
   BROAD_BEAN = { value: 5, label: 'Broad Bean', humus_delta: 3 }.freeze
   OATS = { value: 6, label: 'Oats', humus_delta: 0 }.freeze
-
+ 
   CROPS = [
     SPRING_WHEAT,
     WINTER_WHEAT,
