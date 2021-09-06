@@ -42,7 +42,7 @@ export default class Table extends PureComponent<Props, State> {
         <div className="table__cell table__cell--center">2024 crop</div>
         <div className="table__cell table__cell--right">Humus balance</div>
       </div>
-{console.log(this.state.fields)}
+{console.log(this.state.allCrops)}
       {sortBy(this.state.fields, field => field.name).map(field => this.renderFieldRow(field))}
     </div>
 
