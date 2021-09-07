@@ -1,4 +1,4 @@
-export type Crop = { value: number, label: string, humus_delta: number }
+export type Crop = { value: number, label: string }
 
 export type SeasonalCrop = {
   year: number,
@@ -10,4 +10,10 @@ export type Field = {
   name: string,
   area: number,
   crops: Array<SeasonalCrop>,
+  humusBalance?: number
+}
+
+export type HumusBalance = {
+  field_id: number,
+  humus_balance: number
 }
