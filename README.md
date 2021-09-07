@@ -27,11 +27,15 @@ How to calculate humus balance based on our data?
 * No page reloads (crop changes will be lost since we're using hardcoded data in the server)
 * The farmer should get visual feedback about whether he is improving or degrading his fields
 
+#### App Screenshot
+![screenshot](app_screenshot.png)
+
 ## Setting up
 
 ### Dependencies
 * Ruby 3.0.0
 * Yarn
+* Node.js
 
 ### Back-end: Soil Service
 * CD into the `soil-service` directory
@@ -45,3 +49,33 @@ How to calculate humus balance based on our data?
 * Make sure port `3001` is available on your machine    
 * Run `yarn start`
 * Visit `localhost:3001`
+
+### Run tests :Rails
+
+`rpsec`
+
+### Run tests :React
+
+`yarn test`
+
+# Author
+
+👤 **Tendongze Godson**
+
+- Email: [Email](tendongzegodson@gmail.com)
+- Github: [tGodson](https://github.com/tGodson)
+- Twitter: [@tendongze95](https://twitter.com/tendongze95)
+- Linkedin: [tendongzegodson](https://www.linkedin.com/in/tendongzegodson)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page]().
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgement
+[eAgronom](https://eagronom.com/en_au/)

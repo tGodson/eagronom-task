@@ -30,7 +30,7 @@ class CalculateHumusBalanceService
         cummulative_crop_value = crop['value']
       end
 
-      # Return the balance and be a happy farmer
+      # Return the balance
 
       humus_balance
   
