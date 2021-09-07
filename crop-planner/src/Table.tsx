@@ -2,7 +2,7 @@ import { PureComponent } from "react";
 import { sortBy } from "lodash";
 
 import CropSelect from "./CropSelect";
-import { Crop, Field, SeasonalCrop, HumusBalance } from "./types";
+import { Crop, Field, SeasonalCrop } from "./types";
 import { fetchCrops, fetchFields, fetchHumusBalance } from "./api";
 import buildNewFieldsState from "./buildNewFieldsState";
 

@@ -27,6 +27,18 @@ How to calculate humus balance based on our data?
 * No page reloads (crop changes will be lost since we're using hardcoded data in the server)
 * The farmer should get visual feedback about whether he is improving or degrading his fields
 
+#### Active Backend Changes
+
+- Create Calculate hummus balance Route
+- Create service to calculate hummus balance
+- Create controller to manipulate the hummus balance
+
+#### Active Frontend Changes
+
+- Connect backend to fetch hummus balance and modified componentDidMount
+- Display humus balance in the UI
+- Display humus balance with visual feedback
+
 #### App Screenshot
 ![screenshot](app_screenshot.png)
 
